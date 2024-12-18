@@ -865,6 +865,7 @@ class ClientLibrary:
             lab = self.join_existing_lab(lab_id)
             matched_labs.append(lab)
 
+        print(matched_labs)
         return matched_labs
 
     def get_lab_list(self, show_all: bool = False) -> list[str]:
